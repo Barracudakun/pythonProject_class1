@@ -5,6 +5,7 @@ driver = webdriver.Chrome('/Users/seashore/Dropbox/My Mac (MacBook-Air.lan)/Desk
 driver.maximize_window()
 driver.implicitly_wait(10)
 '''
+from selenium import webdriver
 driver = webdriver.Chrome('/Users/seashore/Dropbox/My Mac (MacBook-Air.lan)/Desktop/chromedriver')
 driver.get("http://www.amazon.com")
 '''
