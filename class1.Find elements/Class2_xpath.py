@@ -23,7 +23,7 @@ Xpath定位策略 (xpath 与css 一定能定位到元素）
             如：//input 'input'表示元素 如果不知道'input' 可以使用 '//*'
 
 2. 路径结合属性
-        语法：在Xpath中，所有的元素属性必须使用 '@' 符号修饰 如： //*[@id=id值']
+        语法：在Xpath中，所有的元素属性必须使用 '@' 符号修饰 如： //*[@id='id值']
 3. 属性与逻辑结合(and)定位 (多个属性定位)
         语法： //*[@id='id 值' and @属性 = '属性值']
 4. 层级与属性结合定位 ***重要 /input or /input[1], /input[2];   or /a or /a[1], /a[2]  任意标签名 [1],[2] 表示第几个标签名
@@ -38,9 +38,10 @@ Xpath定位策略 (xpath 与css 一定能定位到元素）
     4. 相对路径匹配任意集元素，不限制元素的位置 格式 '//input' or '//*'
 
 XPath 定位方法
-driver.find_element_by_xpath(xpath) or
-dirver.find_element(By.xpath)
+1 driver.find_element_by_xpath(xpath) or
+ dirver.find_element(By.xpath)
 
+2 To test Xpath  in a browser , use $x() command in your browser console
 '''
 
 from selenium import webdriver

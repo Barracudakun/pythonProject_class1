@@ -65,7 +65,7 @@ id                //input[@id='kw']                                             
 class             //*[@class='telA']                                             .telA   
 属性              1. //*[text()="XXX"]                                           1. input[type^='p']  （p字母开头的元素)
                  2. //input[starts_with(@atrribute,'xxx')]                      2. input[type$='d']   (d字母结束的元素)
-                 3. //input[contains(@attribute,'xxx')]                         3. input[type*="w"]   (包含w字母的元素)
+important        3. //input[contains(@attribute,'xxx')]                         3. input[type*="w"]   (包含w字母的元素)
 '''
 '''
 定位一组元素
